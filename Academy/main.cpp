@@ -257,6 +257,8 @@ public:
 //////////////////////описание класса преподавательт - конкретизация от человека ////////////////////////
 class Teacher :public Human
 {
+	static const int SPECIALITY_WIDTH = 22;
+	static const int EXPERIENCE_WIDTH = 10;
 	std::string speciality;
 	int experience;
 public:
